@@ -7,12 +7,3 @@ def get_score(team_name, teams):
     position = teams.index(team_name) + 1
     return f"A {team_name} ficou classificada em {position}"
 
-
-get_score_1 = get_score("Team Ateliware", hackathon_1)
-print(get_score_1)
-
-get_score_2 = get_score("Team Kenzie", hackathon_1)
-print(get_score_2)
-
-get_score_3 = get_score("Team Mirum", hackathon_3)
-print(get_score_3)
